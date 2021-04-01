@@ -53,13 +53,10 @@ bot.on("message", message => {
                     color: 0xff033d,
                     timestamp: new Date(),
                     footer: {
-                        icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                        text: "Developed by Arathon#4955"
-                    },
-                    thumbnail: {
-                        url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                       
+                            ,
+                        text: "Developed by Super#6114"
+                    
                     },
                     author: {
                         name: "AraCore Account Generator Bot",
@@ -121,16 +118,16 @@ bot.on("message", message => {
                             timestamp: new Date(),
                             footer: {
                                 icon_url:
-                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                                text: "Developed by Arathon#4955"
+                                    "",
+                                text: "Super#6114"
                             },
                             thumbnail: {
                                 url:
-                                    "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                                    
                             },
                             author: {
-                                name: "AraCore Account Generator Bot",
-                                url: "https://discord.gg/xF9KxAU",
+                                name: "S-Gen",
+                                url: https://discord.gg/SYfyjsxSMW"
                                 icon_url: bot.displayAvatarURL
                             },
                             fields: []
@@ -149,18 +146,18 @@ bot.on("message", message => {
                     color: 0xff033d,
                     timestamp: new Date(),
                     footer: {
-                        icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                        text: "Developed by Arathon#4955"
+                       
+                            
+                        text: "Developed by Super#6114"
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                            
                     },
                     author: {
-                        name: "AraCore Account Generator Bot",
-                        url: "https://discord.gg/xF9KxAU",
-                        icon_url: bot.displayAvatarURL
+                        name: S-gen
+                        url: 
+                        icon_url: 
                     },
                     fields: []
                 };
@@ -171,8 +168,8 @@ bot.on("message", message => {
 
                 const embed = {
                     color: 0xff033d,
-                    title: 'AraCore Account Generator Bot',
-                    url: 'https://discord.gg/xF9KxAU',
+                    title: 'S-Gen',
+                    ',
                     author: {
                         name: 'Command list',
                         //icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png',
@@ -206,8 +203,8 @@ bot.on("message", message => {
                     ],
                     timestamp: new Date(),
                     footer: {
-                        text: 'Developed by Arathon#4955',
-                        icon_url: 'https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png',
+                        text: 'Developed by Super#6114',
+                     
                     },
                 };
                 message.channel.send({ embed });
@@ -233,12 +230,12 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                        text: "Developed by Arathon#4955"
+                           
+                        text: "Developed by Super#6114
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                            
                     },
                     author: {
                         name: "AraCore Account Generator Bot",
@@ -259,7 +256,7 @@ bot.on("message", message => {
             let messageArray = message.content.split(" ");
             let args = messageArray.slice(1);
             const filePath = __dirname + "/" + args[0] + ".txt";
-            fs.writeFile(filePath, 'AraCore:AraCore', function (err) {
+            fs.writeFile(filePath, 'S-Gen', function (err) {
                 if (err) throw err;
                 const embed = {
                     title: "Created Service!",
@@ -267,18 +264,17 @@ bot.on("message", message => {
                     color: 0xff033d,
                     timestamp: new Date(),
                     footer: {
-                        icon_url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                        text: "Developed by Arathon#4955"
+                        icon_url:"
+                            
+                        text: "Developed by Super#6114
                     },
                     thumbnail: {
                         url:
-                            "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                            
                     },
                     author: {
-                        name: "AraCore Account Generator Bot",
-                        url: "https://discord.gg/xF9KxAU",
-                        icon_url: bot.displayAvatarURL
+                        name: S-Gen
+                        
                     },
                     fields: []
                 };
@@ -293,12 +289,12 @@ bot.on("message", message => {
                 timestamp: new Date(),
                 footer: {
                     icon_url:
-                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png",
-                    text: "Developed by Arathon#4955"
+                        
+                    text: "Developed by Super#6114
                 },
                 thumbnail: {
                     url:
-                        "https://cdn.discordapp.com/attachments/605044891839365132/709708459528159252/aracore.png"
+                      
                 },
                 author: {
                     name: "AraCore Account Generator Bot",
